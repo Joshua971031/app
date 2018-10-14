@@ -24,6 +24,8 @@ public class Splash extends AppCompatActivity {
                 }catch (Exception e){
                     e.printStackTrace();
                 }
+
+
             }
         };
         myThread.start();//启动线程
